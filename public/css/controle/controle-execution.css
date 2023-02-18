@@ -1,0 +1,49 @@
+
+
+/* ul.questionaire-li li:hover,ul.questionaire-li li:active{   */
+    
+    .questionaire-li:hover,
+    .questionaire-li.selected {
+      color: #000;
+      background: #efefef;
+    }
+    
+    .questionaire-li-exec:hover,
+    .questionaire-li-exec.selected {
+      color: #000;
+      background: #efefef;
+    }
+
+  
+.pj-div p{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+  border: 1px dashed gray;
+}
+
+.pj-div input[type="file"]{
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+
+}
+@media (min-width: 992px) {
+  /* .row.table-row {
+    display: table;
+    width: 100%;
+    min-width: 800px;
+    border-spacing: 10px;
+  } */
+  /* .row.table-row > .col-sm-6 {
+    display: table-cell;
+    width: 50%;
+  }
+  .row.table-row > .col-sm-6 {
+    float: none;
+  } */
+}

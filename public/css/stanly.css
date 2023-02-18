@@ -1,0 +1,106 @@
+/**************************** POP UP LIST CAMERAS CSS HB ****************************/
+
+.videoElement-sv {
+    align-self: center;
+    position: relative;
+    width: 570px;
+    height: 480px;
+    border-style: dashed;
+    border-color: #000;
+    border-radius: 10px !important;
+    box-shadow: 1px 1px 7px #9c9c9cee;
+}
+
+.camerasModalTitle-sv {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.spinner-sv {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    font-size: 60px;
+    color: #ffd102;
+    visibility: hidden;
+}
+
+.canvas-sv {
+    width: 100%;
+    height: 100%;
+    /* height: 100%; */
+    border-radius: 10px;
+}
+
+.camerasModalSelect-sv {
+    border-radius: 5px !important;
+    width: 50%;
+    color: black;
+    font-size: 16px;
+}
+
+#camerasModal .modal-content {
+    border-radius: 10px !important;
+}
+
+.camera-list-sv {
+    width: 100%;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.content-sv {
+    background: #ffd102;
+    /* margin-top: 8px; */
+    padding: 10px;
+    /* margin-left: 7px; */
+    /* margin-bottom: 0px; */
+    width: 165px;
+}
+
+.header-info-sv {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    height: 54px;
+    left: 0;
+    top: 0;
+}
+
+
+.icon-info-sv {
+    width: 23px;
+    position: absolute;
+    top: 22px;
+    right: 18px;
+    cursor: pointer;
+}
+
+
+.icon-event-sv {
+    width: 30px;
+    margin-top: 22px;
+    margin-left: 12px;
+}
+
+
+
+.siteName-sv {
+    margin-top: 36px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.siteInfo-sv {
+    margin: 2px 0;
+}
+
+
+.btn-stream-sv {
+    background: #000;
+    color: #ffd102;
+    height: 30px;
+    width: 100%;
+    border: 0;
+
+}
